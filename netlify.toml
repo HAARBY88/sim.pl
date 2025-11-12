@@ -1,6 +1,5 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  publish = "dist"   # or "public" if that's your static folder
   environment = { NODE_VERSION = "20" }
 
 [functions]
